@@ -1,0 +1,124 @@
+body {
+    height: 100%; 
+    margin: 0;   
+    padding: 0;
+    background-image: url("../Downloads/pinterest\ \(1\)\ \(1\).jpg");
+    background-size: cover;       
+    background-repeat: no-repeat;
+    background-position: center;  
+    background-attachment: fixed; 
+    background-color: black;
+}
+ 
+h1 { 
+    text-align: center;
+    color: brown;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+h2 {
+    
+    color: rgb(0, 228, 102);
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.frame {
+  position: absolute; 
+  top: 205px;       
+  left: 0;          
+  width: 660px;      
+  height: 1128px;      
+  border: 2px solid rgba(255, 0, 0, 0.13);
+  z-index: 1;       
+  pointer-events: none; 
+  border-radius: 20px;
+}
+
+h3 {
+    padding-left: 150px;
+    font-size: 20px;
+    color: rgb(0, 228, 102);
+}
+
+.border {
+  position: absolute; 
+  top: 1925px;        
+  left: 0;           
+  width: 565px;      
+  height: 1300px;      
+  border: 2px solid rgba(255, 0, 0, 0.13);
+  z-index: 1;          
+  pointer-events: none; 
+  border-radius: 20px;
+}
+
+
+h4 {
+    margin-top: 500px;
+    padding-left: 200px;
+    font-size: 20px;
+    color: rgb(0, 228, 102);
+}
+
+h5 {
+    color: rgb(0, 228, 102);
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+h6 {
+  color: rgba(255, 0, 0, 0.678);
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-right: 1835px;
+}
+
+em {
+    color: #09ff0081;
+}
+
+#bg-video {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;   
+  position: absolute;  
+  display: block;   
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .bg-video {
+    width: 100%;     
+    height: auto;    
+    border-radius: 0;  
+  }
+}
+
+#bg-video-2 {
+  margin-top: 30px;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;   
+  position: absolute;  
+  display: block;   
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .bg-video-2 {
+    width: 100%;     
+    height: auto;    
+    border-radius: 0;  
+  }
+}
+
+.photo {
+    padding-left: 920px;
+    height: 50px;
+    margin-top: 0;
+}
